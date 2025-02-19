@@ -45,6 +45,20 @@ El archivo sigue una estructura organizada por redes blockchain, donde cada una 
 }
 ```
 
+```json
+{
+    "mainnetDeployments": [
+        {"name": "Ethereum", "chainId": 1, "url_explorer_token": "https://etherscan.io/tokens"},
+        {"name": "Optimism", "chainId": 10, "url_explorer_token": "https://optimistic.etherscan.io/tokens"},
+        {"name": "Base", "chainId": 8453, "url_explorer_token": "https://basescan.org/tokens"},
+        {"name": "Arbitrum One", "chainId": 42161, "url_explorer_token": "https://arbiscan.io/tokens"},
+        {"name": "Polygon", "chainId": 137, "url_explorer_token": "https://polygonscan.com/tokens"},
+        {"name": "Avalanche", "chainId": 43114, "url_explorer_token": "https://snowtrace.io/tokens"},
+        {"name": "BNB Smart Chain", "chainId": 56, "url_explorer_token": "https://bscscan.com/token"}
+    ]
+}
+```
+
 ## 🔍 Descripción de los Campos
 
 - **networks**: Lista de redes blockchain disponibles.
